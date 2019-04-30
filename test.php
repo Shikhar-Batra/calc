@@ -63,5 +63,5 @@ class Calculator{
 
 
 
-$calculat = new Calculator();
-echo $calculat->calc();
+// $calculat = new Calculator();
+// echo $calculat->calc();
