@@ -1,0 +1,19 @@
+{
+    "name": "gaps/calculator",
+    "description": "this is a calc",
+    "type": "library",
+    "authors": [
+        {
+            "name": "shikhar",
+            "email": "shikhar@bitqit.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Calculator\\": "calculator/"
+        }
+    },
+
+    "require": {}
+}
