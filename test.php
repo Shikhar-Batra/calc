@@ -1,34 +1,13 @@
-
-<form method = "POST">
-    <input type="number" name="num1" required>
-    <select name="operations" required>
-        <option value="ADD">+</option>
-        <option value="SUB">-</option>
-        <option value="MUL">*</option>
-        <option value="DIV">%</option>
-        </select>
-    <input type="number" name="num2" required >
-    <input type="submit" value="Save" name="submit">
-</form>
-
-
 <?php
-
-
 namespace Calculator;
 
 class Calculator{
 
-
-
  public function calc(){
-
 
       if (isset($_POST['submit']))
 
-
       {
-
           $num1=$_POST['num1'];
           $num2=$_POST['num2'];
           $operator=$_POST['operations'];
@@ -50,18 +29,18 @@ class Calculator{
           }
       }
 
-
-
   }
-
-
-
 
 }
 
 
 
 
+//
+//$calculat = new Calculator();
+//echo $calculat->calc();
+?>
 
-// $calculat = new Calculator();
-// echo $calculat->calc();
+
+
+
